@@ -46,13 +46,27 @@ All colors MUST be HSL.
     --radius: 1rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(271 91% 65%));
-    --gradient-dark: linear-gradient(180deg, hsl(240 20% 3%), hsl(240 15% 8%));
-    --gradient-glow: radial-gradient(circle at center, hsl(217 91% 60% / 0.15), transparent 70%);
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(217 91% 60%),
+      hsl(271 91% 65%)
+    );
+    --gradient-dark: linear-gradient(
+      180deg,
+      hsl(240 20% 3%),
+      hsl(240 15% 8%)
+    );
+    --gradient-glow: radial-gradient(
+      circle at center,
+      hsl(217 91% 60% / 0.15),
+      transparent 70%
+    );
 
     /* Shadows and effects */
-    --shadow-neon: 0 0 20px hsl(217 91% 60% / 0.3), 0 0 40px hsl(217 91% 60% / 0.1);
-    --shadow-neon-purple: 0 0 20px hsl(271 91% 65% / 0.3), 0 0 40px hsl(271 91% 65% / 0.1);
+    --shadow-neon: 0 0 20px hsl(217 91% 60% / 0.3),
+      0 0 40px hsl(217 91% 60% / 0.1);
+    --shadow-neon-purple: 0 0 20px hsl(271 91% 65% / 0.3),
+      0 0 40px hsl(271 91% 65% / 0.1);
     --glass-bg: hsl(240 15% 8% / 0.5);
     --glass-border: hsl(217 91% 60% / 0.2);
 
@@ -96,5 +110,11 @@ All colors MUST be HSL.
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  /* ✅ NEW: Global horizontal padding utility */
+  .container-padding {
+    padding-left: clamp(24px, 6vw, 120px);
+    padding-right: clamp(24px, 6vw, 120px);
   }
 }

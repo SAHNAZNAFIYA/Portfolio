@@ -20,7 +20,7 @@ const highlights = [
   {
     icon: Sparkles,
     title: 'AI-Powered Development',
-    description: 'Skilled at efficiently leveraging AI tools like ChatGPT, Gemini, Perplexity, and Lovable'
+    description: 'Skilled at efficiently leveraging AI tools like ChatGPT, Gemini, Perplexity, Lovable, and others'
   }
 ];
 

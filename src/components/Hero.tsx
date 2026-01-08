@@ -7,9 +7,9 @@ import { Suspense, useState, useEffect } from 'react';
 const typingTexts = [
   'Full-Stack Development',
   'AI & Machine Learning',
-  'IoT Innovation',
+  'IoT & Embedded Innovation',
   'Web3 & Smart Contracts',
-  'Creative Engineering Projects'
+  'Creative Engineering'
 ];
 
 export default function Hero() {
@@ -49,7 +49,10 @@ export default function Hero() {
       {/* Background gradient glow */}
       <div className="absolute inset-0 bg-gradient-radial from-primary/10 via-transparent to-transparent" />
       
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-6 md:px-8 py-20 relative z-10">
+
+
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text content */}
           <motion.div
@@ -76,7 +79,7 @@ export default function Hero() {
               Developer & Engineering Student Exploring Web, AI, IoT & Blockchain — 
               Crafting <span className="text-primary font-semibold">Real-World</span>, 
               <span className="text-secondary font-semibold"> Creative</span> & 
-              <span className="text-primary font-semibold"> Scalable</span> Solutions Through Code.
+              <span className="text-primary font-semibold"> Scalable</span> Solutions.
             </motion.p>
 
             <motion.div
@@ -112,7 +115,7 @@ export default function Hero() {
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:opacity-90 text-white transition-all neon-glow"
               >
                 <a 
-                  href="https://drive.google.com/file/d/1M9wKd-cfoZD2-YE1hDEtUwqsZVHDAbRT/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1VVq7xS82f1MJpoDI8Jh__zFOt9vr3In-?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center"

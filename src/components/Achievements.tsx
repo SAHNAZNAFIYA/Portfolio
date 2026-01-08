@@ -6,28 +6,28 @@ const achievements = [
     icon: Trophy,
     title: 'L1X AI + Web3 International Hackathon',
     subtitle: 'Finalist (2025)',
-    description: 'Competed internationally in cutting-edge AI and Web3 technologies',
+    description: 'Selected among international teams and praised by the CEO of L1X for exceptional UI design',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: FileText,
-    title: 'Research Publication',
+    title: 'Research',
     subtitle: 'Ultrasonic Gloves for Visually Impaired',
-    description: 'Published research on assistive technology for accessibility',
+    description: 'Presented a cost-effective assistive-tech wearable at NCRESET’25',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Users,
-    title: 'IETE Coordinator',
-    subtitle: 'Campus Ambassador',
-    description: 'Leadership role in technical organization and community building',
+    title: 'Leadership & Roles',
+    subtitle: 'IETE Coordinator | Verzeo Campus Ambassador | Master of Ceremonies (MOC)',
+    description: 'Actively led technical communities, represented campus programs, and hosted major events in college with strong communication and leadership skills',
     color: 'from-purple-500 to-pink-500'
   },
   {
     icon: Award,
-    title: 'Professional Certifications',
-    subtitle: 'Multiple Domains',
-    description: 'IBM AI, DeFi, 5G, Cryptography, Embedded Systems certifications',
+    title: 'Bootcamps & Certifications',
+    subtitle: 'Raspberry Pi Bootcamp | Generative AI Bootcamp | IBM & Coursera Certifications | Oracle & MongoDB Foundations',
+    description: 'Completed hands-on bootcamps in IoT (Raspberry Pi) and generative AI, and earned professional certificates in AI, DeFi, 5G, cryptography, embedded systems, cloud fundamentals, and database basics',
     color: 'from-green-500 to-emerald-500'
   }
 ];

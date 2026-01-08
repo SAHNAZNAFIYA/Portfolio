@@ -93,7 +93,7 @@ export default function Contact() {
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:opacity-90 text-white font-semibold transition-all neon-glow"
               >
                 <a 
-                  href="https://drive.google.com/file/d/1M9wKd-cfoZD2-YE1hDEtUwqsZVHDAbRT/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1VVq7xS82f1MJpoDI8Jh__zFOt9vr3In-?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center"
@@ -114,7 +114,7 @@ export default function Contact() {
         viewport={{ once: true }}
         className="mt-20 text-center text-muted-foreground"
       >
-        <p>© 2025 SAHNAZ NAFIYA J. Built with passion using React, TypeScript, Tailwind CSS & Framer Motion.</p>
+        <p>© 2025 SAHNAZ NAFIYA J</p>
       </motion.footer>
     </section>
   );

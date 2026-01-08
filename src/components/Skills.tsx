@@ -19,25 +19,25 @@ const skillCategories = [
     icon: Globe,
     title: 'Web Development',
     color: 'from-purple-500 to-pink-500',
-    skills: ['React (TypeScript)', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Figma (UI/UX)']
+    skills: ['HTML & CSS', 'React (TypeScript)', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Figma (UI/UX)','Supabase']
   },
   {
     icon: Brain,
-    title: 'AI / ML Tools',
+    title: 'AI / ML Tools & Knowledge',
     color: 'from-green-500 to-emerald-500',
-    skills: ['Hugging Face', 'Python ML Stack', 'ChatGPT', 'Gemini', 'Perplexity', 'Google Colab']
+    skills: ['Hugging Face', 'Python ML Stack', 'ChatGPT', 'Gemini', 'Perplexity', 'Colab','Neural Networks & Deep Learning (theory)']
   },
   {
     icon: Cpu,
     title: 'IoT / Embedded Systems',
     color: 'from-orange-500 to-red-500',
-    skills: ['ESP32', 'Raspberry Pi', 'Sensors', 'Microcontroller Integration']
+    skills: ['ESP32', 'Raspberry Pi', 'Sensors', 'Microcontroller Integration', 'Real-time Monitoring Systems']
   },
   {
     icon: Blocks,
     title: 'Blockchain / Web3',
     color: 'from-indigo-500 to-purple-500',
-    skills: ['Solidity', 'Hardhat', 'Web3.js', 'IPFS', 'Pinata']
+    skills: ['Solidity', 'Hardhat', 'Web3.js', 'IPFS', 'Pinata', 'Smart Contracts', 'Wallet Integration']
   },
   {
     icon: Wrench,
