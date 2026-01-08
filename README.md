@@ -3,6 +3,7 @@
 Personal developer portfolio showcasing my projects, skills, and experience in **Full-Stack Development, AI, IoT, and Blockchain**.
 
 🔗 **Live Site:** [https://sahnaz-nafiya-portfolio.netlify.app/] 
+
 📄 **Resume:** [https://drive.google.com/drive/folders/1VVq7xS82f1MJpoDI8Jh__zFOt9vr3In-?usp=sharing] 
 
 ---
