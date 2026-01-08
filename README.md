@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# SAHNAZ NAFIYA J — Portfolio
 
-## Project info
+Personal developer portfolio showcasing my projects, skills, and experience in **Full-Stack Development, AI, IoT, and Blockchain**.
 
-**URL**: https://lovable.dev/projects/525eabb5-3039-405a-add6-1fe1f4761431
+🔗 **Live Site:** [https://sahnaz-nafiya-portfolio.netlify.app/] 
+📄 **Resume:** [https://drive.google.com/drive/folders/1VVq7xS82f1MJpoDI8Jh__zFOt9vr3In-?usp=sharing] 
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 About Me
 
-**Use Lovable**
+I am an **Electronics & Communication Engineering student** with a strong interest in building **real-world, scalable, and creative solutions**.  
+My focus areas include **web development**, **artificial intelligence**, **IoT & embedded systems**, and **Web3 technologies**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/525eabb5-3039-405a-add6-1fe1f4761431) and start prompting.
+This portfolio is designed to highlight my technical skills, featured projects, and professional journey.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+**Frontend**
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Framer Motion
 
-## How can I deploy this project?
+**Backend / Tools**
+- Node.js
+- Git & GitHub
+- Netlify (Deployment)
 
-Simply open [Lovable](https://lovable.dev/projects/525eabb5-3039-405a-add6-1fe1f4761431) and click on Share -> Publish.
+**Other Interests**
+- AI & Machine Learning
+- IoT & Embedded Systems
+- Blockchain & Smart Contracts
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ✨ Features
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Modern, responsive UI
+- Smooth animations with Framer Motion
+- Interactive hero section with typing effect
+- Clean project showcase
+- Deployed with Netlify and auto-deploy via GitHub
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📂 Project Structure
+
+├── public/
+│ └── assets, favicon
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ └── main.tsx
+├── index.html
+├── package.json
+└── README.md
+
+
+
+---
+
+## ⚙️ Running Locally
+
+```bash
+git clone https://github.com/SAHNAZNAFIYA/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+🚀 Deployment
+The project is deployed on Netlify with automatic builds triggered on every push to the main branch.
+
+Build Command
+
+
+npm run build
+Publish Directory
+
+
+dist
+📬 Contact
+Email: sahnaznafiya@gmail.com
+
+GitHub: https://github.com/SAHNAZNAFIYA
+
+LinkedIn: https://www.linkedin.com/in/sahnaz-nafiya-j
+
+© 2025 SAHNAZ NAFIYA J
