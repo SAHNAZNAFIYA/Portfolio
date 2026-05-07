@@ -5,11 +5,12 @@ import NeonRibbonOrb from './NeonRibbonOrb';
 import { Suspense, useState, useEffect } from 'react';
 
 const typingTexts = [
-  'Full-Stack Development',
+  'Strategic Problem Solving',
+  'Full Stack Development',
   'AI & Machine Learning',
-  'IoT & Embedded Innovation',
+  'Client Focused Innovation',
   'Web3 & Smart Contracts',
-  'Creative Engineering'
+  'Leadership & Communication'
 ];
 
 export default function Hero() {
