@@ -70,6 +70,14 @@ export default function Hero() {
             >
               <span className="text-gradient">SAHNAZ NAFIYA J</span>
             </motion.h1>
+            <motion.div
+  className="inline-block px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary font-medium"
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.3 }}
+>
+  Strategic Thinker • Full Stack Developer • AI Enthusiast
+</motion.div>
             
             <motion.p
               className="text-xl md:text-2xl text-muted-foreground leading-relaxed"
@@ -77,10 +85,12 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Developer & Engineering Student Exploring Web, AI, IoT & Blockchain — 
-              Crafting <span className="text-primary font-semibold">Real-World</span>, 
-              <span className="text-secondary font-semibold"> Creative</span> & 
-              <span className="text-primary font-semibold"> Scalable</span> Solutions.
+              Electronics & Communication Engineering Graduate combining 
+technology, strategic thinking, leadership, and innovation to build 
+<span className="text-primary font-semibold"> Impactful</span>, 
+<span className="text-secondary font-semibold"> Real World</span> & 
+<span className="text-primary font-semibold"> Scalable</span> Solutions 
+across AI, Full Stack Development, IoT, and Web3.
             </motion.p>
 
             <motion.div
@@ -122,7 +132,7 @@ export default function Hero() {
                   className="flex items-center"
                 >
                   <FileText className="mr-2 w-5 h-5" />
-                  Resume
+                  View Resume
                 </a>
               </Button>
             </motion.div>

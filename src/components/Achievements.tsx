@@ -13,9 +13,16 @@ const achievements = [
     icon: FileText,
     title: 'Research',
     subtitle: 'Ultrasonic Gloves for Visually Impaired',
-    description: 'Presented a cost-effective assistive-tech wearable at NCRESET’25',
+    description: 'Developed and presented an assistive IoT wearable solution focused on improving navigation and safety for visually impaired individuals',
     color: 'from-blue-500 to-cyan-500'
   },
+  {
+  icon: Award,
+  title: 'International Conference Presentation',
+  subtitle: 'ICEAISC’26 | MAM College of Engineering',
+  description: 'Presented the research paper “IoT Based Marine Bottle Monitoring and Health Monitoring” at the International Conference on Edge AI, Intelligent Analytics, and Smart Computing, showcasing technical research, communication, and presentation skills',
+  color: 'from-cyan-500 to-blue-500'
+},
   {
     icon: Users,
     title: 'Leadership & Roles',
@@ -46,10 +53,10 @@ export default function Achievements() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Achievements & <span className="text-gradient">Recognition</span>
           </h2>
-          <p className="text-xl text-muted-foreground">Milestones and accomplishments</p>
+          <p className="text-xl text-muted-foreground">Leadership, research, innovation, and technical recognition</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {achievements.map((achievement, index) => (
             <motion.div
               key={index}

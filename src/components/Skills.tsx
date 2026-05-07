@@ -5,7 +5,8 @@ import {
   Brain, 
   Cpu, 
   Blocks,
-  Wrench
+  Wrench,
+  Rocket
 } from 'lucide-react';
 
 const skillCategories = [
@@ -23,7 +24,7 @@ const skillCategories = [
   },
   {
     icon: Brain,
-    title: 'AI / ML Tools & Knowledge',
+    title: 'AI & Intelligent Systems',
     color: 'from-green-500 to-emerald-500',
     skills: ['Hugging Face', 'Python ML Stack', 'ChatGPT', 'Gemini', 'Perplexity', 'Colab','Neural Networks & Deep Learning (theory)']
   },
@@ -35,13 +36,27 @@ const skillCategories = [
   },
   {
     icon: Blocks,
-    title: 'Blockchain / Web3',
+    title: 'Blockchain & Web3',
     color: 'from-indigo-500 to-purple-500',
     skills: ['Solidity', 'Hardhat', 'Web3.js', 'IPFS', 'Pinata', 'Smart Contracts', 'Wallet Integration']
   },
   {
+  icon: Rocket,
+  title: 'Leadership & Strategy',
+  color: 'from-pink-500 to-rose-500',
+  skills: [
+    'Strategic Thinking',
+    'Leadership',
+    'Problem Solving',
+    'Client Communication',
+    'Presentation Skills',
+    'Team Collaboration',
+    'Project Coordination'
+  ]
+},
+  {
     icon: Wrench,
-    title: 'Tools & Platforms',
+    title: 'Development Tools & Platforms',
     color: 'from-yellow-500 to-orange-500',
     skills: ['Git', 'GitHub', 'MATLAB', 'UI Path', 'VS Code']
   }
@@ -59,9 +74,9 @@ export default function Skills() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Technical <span className="text-gradient">Skills</span>
+            Skills & <span className="text-gradient">Expertise</span>
           </h2>
-          <p className="text-xl text-muted-foreground">Tools and technologies I work with</p>
+          <p className="text-xl text-muted-foreground">Technical expertise combined with leadership, strategic thinking, and problem solving</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

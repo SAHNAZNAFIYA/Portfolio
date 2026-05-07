@@ -9,13 +9,13 @@ const highlights = [
   },
   {
     icon: Lightbulb,
-    title: 'Innovation Focus',
-    description: 'Passionate about building real-world, creative solutions that make an impact'
+    title: 'Strategic Innovation',
+description: 'Focused on solving real world challenges through technology, leadership, and scalable innovation'
   },
   {
     icon: Rocket,
-    title: 'Fast Learner',
-    description: 'Quick to adapt, highly innovative, with strong problem-solving skills'
+   title: 'Leadership & Problem Solving',
+description: 'Quick to adapt, strategic in thinking, and confident in handling complex challenges'
   },
   {
     icon: Sparkles,
@@ -52,23 +52,24 @@ export default function About() {
           >
             <div className="glass-panel p-8 rounded-2xl neon-glow">
               <p className="text-lg leading-relaxed mb-6">
-                I'm an <span className="text-primary font-semibold">Electronics & Communication Engineering</span> student 
-                with a passion for building <span className="text-secondary font-semibold">real-world solutions</span> that 
-                make a difference. My journey spans across multiple domains including 
-                <span className="text-primary"> Web Development</span>, 
-                <span className="text-secondary"> Artificial Intelligence</span>, 
-                <span className="text-primary"> IoT</span>, and 
-                <span className="text-secondary"> Blockchain</span>.
-              </p>
+  I'm an <span className="text-primary font-semibold">Electronics & Communication Engineering Graduate </span> 
+  passionate about building <span className="text-secondary font-semibold">impactful real world solutions </span> 
+  through technology, strategic thinking, and innovation. My experience spans across 
+  <span className="text-primary"> Full Stack Development</span>, 
+  <span className="text-secondary"> Artificial Intelligence</span>, 
+  <span className="text-primary"> IoT</span>, and 
+  <span className="text-secondary"> Blockchain</span>, where I enjoy solving practical challenges with creative and scalable approaches.
+</p>
               
               <p className="text-lg leading-relaxed">
-                With strong communication, leadership, and problem-solving skills, I bring 
-                <span className="font-semibold"> creativity</span> and 
-                <span className="font-semibold"> innovation</span> to every project. 
-                My internship at <span className="text-primary">Envidox Solutions</span> and participation in 
-                international hackathons have sharpened my ability to deliver 
-                <span className="text-secondary"> high-quality, scalable solutions</span>.
-              </p>
+  Along with my technical background, I bring strong 
+  <span className="font-semibold"> leadership</span>, 
+  <span className="font-semibold"> communication</span>, and 
+  <span className="font-semibold"> strategic problem solving</span> skills to every project and collaborative environment. 
+
+  My internship at <span className="text-primary">Envidox Solutions</span>, leadership experiences, and participation in international hackathons have strengthened my ability to coordinate teams, adapt quickly, and deliver 
+  <span className="text-secondary"> innovative, scalable, and user focused solutions</span>.
+</p>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Briefcase, Users, Code, Award } from 'lucide-react';
+import { Briefcase, Users, Code, Award, MessageSquare } from 'lucide-react';
 
 export default function Experience() {
   return (
@@ -15,7 +15,7 @@ export default function Experience() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Work <span className="text-gradient">Experience</span>
           </h2>
-          <p className="text-xl text-muted-foreground">Professional journey and achievements</p>
+          <p className="text-xl text-muted-foreground">Leadership, collaboration, and real world project execution</p>
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
@@ -31,7 +31,7 @@ export default function Experience() {
               </div>
               
               <div className="flex-1">
-                <h3 className="text-2xl font-bold mb-2">Front-End Developer Intern</h3>
+                <h3 className="text-2xl font-bold mb-2">Front End Developer Intern</h3>
                 <p className="text-primary font-semibold mb-4">Envidox Solutions</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Experience() {
                 >
                   <Users className="w-8 h-8 text-primary mb-2" />
                   <h4 className="font-semibold mb-1">Team Leadership</h4>
-                  <p className="text-sm text-muted-foreground">Led a team of three developers</p>
+                  <p className="text-sm text-muted-foreground">Coordinated development tasks, collaboration, and execution within a small team</p>
                 </motion.div>
 
                 <motion.div
@@ -62,20 +62,31 @@ export default function Experience() {
                 >
                   <Award className="w-8 h-8 text-primary mb-2" />
                   <h4 className="font-semibold mb-1">Recognition</h4>
-                  <p className="text-sm text-muted-foreground">Praised by senior engineers</p>
+                  <p className="text-sm text-muted-foreground">Recognized for creativity, initiative, and execution quality</p>
                 </motion.div>
+                <motion.div
+  whileHover={{ scale: 1.05 }}
+  className="bg-muted/30 p-4 rounded-xl"
+>
+  <MessageSquare className="w-8 h-8 text-secondary mb-2" />
+  <h4 className="font-semibold mb-1">Communication</h4>
+  <p className="text-sm text-muted-foreground">
+    Strong presentation, coordination, and collaborative communication skills
+  </p>
+</motion.div>
               </div>
 
               <div className="space-y-3">
                 <h4 className="font-semibold text-lg text-primary">Key Contributions:</h4>
                 <ul className="space-y-2">
                   {[
-                    'Built responsive front-end features using React with modern design patterns',
-                    'Designed key pages and reusable UI components to improve usability',
-                    'Improved UX flow and optimized multiple front-end interactions',
-                    'Contributed to enhancing the Envichat platform with cleaner, faster UI',
-                    'Appreciated for creativity, execution quality, and team collaboration'
-                  ].map((item, index) => (
+  'Led front end development tasks and collaborated closely with team members during project execution',
+  'Built responsive and scalable interfaces using React, TypeScript, HTML, and CSS',
+  'Designed reusable UI components and improved overall user experience and workflow efficiency',
+  'Contributed to strategic discussions, feature planning, and implementation decisions during development',
+  'Enhanced the Envichat platform with cleaner, faster, and more user focused interface improvements',
+  'Recognized for leadership, adaptability, communication, creativity, and problem solving abilities'
+].map((item, index) => (
                     <motion.li
                       key={index}
                       initial={{ opacity: 0, x: -20 }}
