@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 import { ArrowRight, FileText } from 'lucide-react';
 import { Button } from './ui/button';
@@ -5,12 +6,23 @@ import NeonRibbonOrb from './NeonRibbonOrb';
 import { Suspense, useState, useEffect } from 'react';
 
 const typingTexts = [
-  'Strategic Problem Solving',
+  // Technology & Development
   'Full Stack Development',
   'AI & Machine Learning',
-  'Client Focused Innovation',
   'Web3 & Smart Contracts',
-  'Leadership & Communication'
+  'IoT & Embedded Systems',
+
+  // Business & Strategy
+  'Strategic Problem Solving',
+  'Business Operations & Coordination',
+  'Project Planning & Execution',
+  'Client Focused Innovation',
+  'Digital Transformation & Innovation',
+  'AI-Powered Product Development',
+
+  // Leadership & Collaboration
+  'Leadership & Communication',
+  'Leadership & Stakeholder Management'
 ];
 
 export default function Hero() {
@@ -19,42 +31,44 @@ export default function Hero() {
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
+    const current = typingTexts[currentText];
+
     const timeout = setTimeout(() => {
-      const current = typingTexts[currentText];
-      
       if (!isDeleting) {
         setDisplayText(current.substring(0, displayText.length + 1));
-        
-          if (displayText === current) {
-          setTimeout(() => setIsDeleting(true), 600);
+
+        if (displayText === current) {
+          setTimeout(() => setIsDeleting(true), 1000);
         }
       } else {
         setDisplayText(current.substring(0, displayText.length - 1));
-        
+
         if (displayText === '') {
           setIsDeleting(false);
           setCurrentText((prev) => (prev + 1) % typingTexts.length);
         }
       }
-    }, isDeleting ? 10 : 15);
+    }, isDeleting ? 25 : 65);
 
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, currentText]);
 
   const scrollToProjects = () => {
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects')?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+
       {/* Background gradient glow */}
       <div className="absolute inset-0 bg-gradient-radial from-primary/10 via-transparent to-transparent" />
-      
+
       <div className="container mx-auto px-6 md:px-8 py-20 relative z-10">
 
-
-
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+
           {/* Text content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -62,55 +76,71 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            <motion.h1 
+
+            {/* Name */}
+            <motion.h1
               className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <span className="text-gradient">SAHNAZ NAFIYA J</span>
+              <span className="text-gradient">
+                SAHNAZ NAFIYA J
+              </span>
             </motion.h1>
+
+            {/* Professional identity */}
             <motion.div
-  className="inline-block px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary font-medium"
-  initial={{ opacity: 0, y: 10 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.3 }}
->
-  Strategic Thinker • Full Stack Developer • AI Enthusiast
-</motion.div>
-            
+              className="inline-block px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary font-medium"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+            >
+              Strategic Thinker • Full Stack Developer • AI Enthusiast
+            </motion.div>
+
+            {/* Introduction */}
             <motion.p
               className="text-xl md:text-2xl text-muted-foreground leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Electronics & Communication Engineering Graduate combining 
-technology, strategic thinking, leadership, and innovation to build 
-<span className="text-primary font-semibold"> Impactful</span>, 
-<span className="text-secondary font-semibold"> Real World</span> & 
-<span className="text-primary font-semibold"> Scalable</span> Solutions 
-across AI, Full Stack Development, IoT, and Web3.
+              Engineering graduate combining technology, strategic thinking,
+              leadership, and innovation to build
+              <span className="text-primary font-semibold">
+                {' '}impactful
+              </span>,
+              <span className="text-secondary font-semibold">
+                {' '}real-world
+              </span> and
+              <span className="text-primary font-semibold">
+                {' '}scalable
+              </span> solutions across AI, Full Stack Development,
+              IoT, Web3, and business-oriented projects.
             </motion.p>
 
+            {/* Animated keywords */}
             <motion.div
               className="h-16 flex items-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              <span className="text-2xl font-semibold text-primary">
+              <span className="text-xl md:text-2xl font-semibold text-primary">
                 {displayText}
                 <span className="animate-pulse">|</span>
               </span>
             </motion.div>
 
+            {/* Action buttons */}
             <motion.div
               className="flex flex-wrap gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
+
               <Button
                 size="lg"
                 onClick={scrollToProjects}
@@ -119,13 +149,13 @@ across AI, Full Stack Development, IoT, and Web3.
                 View Projects
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              
+
               <Button
                 size="lg"
                 asChild
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:opacity-90 text-white transition-all neon-glow"
               >
-                <a 
+                <a
                   href="https://drive.google.com/drive/folders/1VVq7xS82f1MJpoDI8Jh__zFOt9vr3In-?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -135,6 +165,7 @@ across AI, Full Stack Development, IoT, and Web3.
                   View Resume
                 </a>
               </Button>
+
             </motion.div>
           </motion.div>
 
@@ -145,14 +176,19 @@ across AI, Full Stack Development, IoT, and Web3.
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative h-[500px] lg:h-[600px]"
           >
+
             <div className="absolute inset-0 bg-gradient-radial from-primary/20 via-secondary/10 to-transparent blur-3xl" />
-            <Suspense fallback={
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="animate-spin w-16 h-16 border-4 border-primary border-t-transparent rounded-full" />
-              </div>
-            }>
+
+            <Suspense
+              fallback={
+                <div className="w-full h-full flex items-center justify-center">
+                  <div className="animate-spin w-16 h-16 border-4 border-primary border-t-transparent rounded-full" />
+                </div>
+              }
+            >
               <NeonRibbonOrb />
             </Suspense>
+
           </motion.div>
         </div>
       </div>
