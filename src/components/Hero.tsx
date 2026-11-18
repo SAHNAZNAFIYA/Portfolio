@@ -96,7 +96,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              Strategic Thinker • Full Stack Developer • AI Enthusiast
+              Technology • Business Strategy • Project Management
             </motion.div>
 
             {/* Introduction */}
